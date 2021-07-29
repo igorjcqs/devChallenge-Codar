@@ -1,0 +1,337 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #FFF;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Nav - Styles */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+nav {
+  background-color: #FFF;
+  height: 80px;
+}
+
+label.logo {
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 250px;
+  color: #d6000d;
+  font-style: italic;
+  font-weight: bold;
+}
+
+label span {
+  color: black;
+  font-style: normal;
+}
+
+nav ul {
+  float: right;
+  margin-right: 200px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 80px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline #d6000d;
+}
+
+.loginBtn {
+  color: white;
+  background-color: #d6000d;
+  padding: 7px 35px;
+  border-radius: 10px;
+}
+
+.checkBtn {
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Main Section - Styles */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.mainSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.videoCallImage {
+  width: 30%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.landing {
+  position: relative;
+  top: 50%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+}
+
+.landing h2 {
+  font-size: 350%;
+  color: #d6000d;
+}
+
+.budgetButton {
+  width: 220px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #d6000d;
+  position: relative;
+  top: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Section Two - Styles */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.codingImage {
+  width: 30%;
+  max-width: 600px;
+  position: absolute;
+  top: 135%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.sectionTwo {
+  position: absolute;
+  top: 135%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.sectionTwo ul li {
+  margin: 15px 0;
+  font-size: 110%;
+}
+
+.confirmCircle {
+    width: 25px;
+    height: 25px;
+    background-color: #d6000d;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    right: 220px;
+}
+
+.callClient {
+  width: 150%;
+  position: absolute;
+  top: 105%;
+  left: -15%;
+}
+
+.callClient h1 {
+  font-size: 18px;
+}
+
+input.phone {
+  background-color: rgb(185, 185, 185);
+  border: 0px solid;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 125%;
+  outline: 0;
+}
+
+button.weCallYou {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 125%;
+  left: 175px;
+  border: 0;
+  cursor: pointer;
+  background-color: #d6000d;
+  color: white;
+  border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Section Three - Styles */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.clientBox {
+  width: 100%;
+  max-width: 550px;
+  height: 20%;
+  border-radius: 20px;
+  background-color: rgb(216, 216, 216);
+  position: absolute;
+  top: 190%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.clientPhoto {
+  width: 100%;
+  max-width: 110px;
+  height: 110px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.clientComment {
+  width: 70%;
+  position: absolute;
+  top: 38%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.client {
+  position: relative;
+  top: 65%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  color: #d6000d;
+}
+
+.clientCompany {
+  font-size: 10px;
+  position: relative;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.clientBox img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Footer - Styles */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  top: 210%;
+}
+
+footer label.logo {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: -8%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* - Responsive - NAV */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1233px) {
+  label.logo {
+    font-size: 30px;
+    padding: 0 150px;
+  }
+
+  nav ul {
+    font-size: 15px;
+    margin-right: 120px;
+  }
+}
+
+@media (max-width: 1016px) {
+  label.logo {
+    padding: 0 100px;
+  }
+
+  nav ul {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 866px) {
+  .checkBtn {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #eb636c;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    color: #FFF;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+  }
+  .loginBtn {
+    color: #d6000d;
+    background-color: white;
+    padding: 7px 35px;
+    border-radius: 10px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  label.logo {
+    padding: 0 50px;
+  }
+}
